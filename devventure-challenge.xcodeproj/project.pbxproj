@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6670BC7249AF09100FEE28E /* ImageLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6670BC6249AF09100FEE28E /* ImageLink.swift */; };
+		F6670BC9249C2C3800FEE28E /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6670BC8249C2C3800FEE28E /* Links.swift */; };
 		F6F94F6C24944088009FFF05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F94F6B24944088009FFF05 /* AppDelegate.swift */; };
-		F6F94F6E24944088009FFF05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F94F6D24944088009FFF05 /* SceneDelegate.swift */; };
-		F6F94F7024944088009FFF05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F94F6F24944088009FFF05 /* ViewController.swift */; };
 		F6F94F7324944088009FFF05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F94F7124944088009FFF05 /* Main.storyboard */; };
 		F6F94F752494408D009FFF05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F94F742494408D009FFF05 /* Assets.xcassets */; };
 		F6F94F782494408D009FFF05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F94F762494408D009FFF05 /* LaunchScreen.storyboard */; };
+		F6F94F80249446AD009FFF05 /* CatsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F94F7F249446AD009FFF05 /* CatsCollectionViewController.swift */; };
+		F6F94F8324945CB0009FFF05 /* CatImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F94F8224945CB0009FFF05 /* CatImageCollectionViewCell.swift */; };
+		F6F94F8724946165009FFF05 /* ImgurAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F94F8624946165009FFF05 /* ImgurAPI.swift */; };
+		F6F94F8924946176009FFF05 /* ImgurData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F94F8824946176009FFF05 /* ImgurData.swift */; };
+		F6F94F8C24946EB3009FFF05 /* UIImage+DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F94F8B24946EB3009FFF05 /* UIImage+DownloadImage.swift */; };
+		F6F94F8E24946FDD009FFF05 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F94F8D24946FDD009FFF05 /* Images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F6670BC6249AF09100FEE28E /* ImageLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLink.swift; sourceTree = "<group>"; };
+		F6670BC8249C2C3800FEE28E /* Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
 		F6F94F6824944088009FFF05 /* devventure-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "devventure-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F94F6B24944088009FFF05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6F94F6D24944088009FFF05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F6F94F6F24944088009FFF05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6F94F7224944088009FFF05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6F94F742494408D009FFF05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6F94F772494408D009FFF05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6F94F792494408D009FFF05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F94F7F249446AD009FFF05 /* CatsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsCollectionViewController.swift; sourceTree = "<group>"; };
+		F6F94F8224945CB0009FFF05 /* CatImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		F6F94F8624946165009FFF05 /* ImgurAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgurAPI.swift; sourceTree = "<group>"; };
+		F6F94F8824946176009FFF05 /* ImgurData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgurData.swift; sourceTree = "<group>"; };
+		F6F94F8B24946EB3009FFF05 /* UIImage+DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+DownloadImage.swift"; sourceTree = "<group>"; };
+		F6F94F8D24946FDD009FFF05 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,45 @@
 		F6F94F6A24944088009FFF05 /* devventure-challenge */ = {
 			isa = PBXGroup;
 			children = (
+				F6F94F812494475E009FFF05 /* Shared */,
 				F6F94F6B24944088009FFF05 /* AppDelegate.swift */,
-				F6F94F6D24944088009FFF05 /* SceneDelegate.swift */,
-				F6F94F6F24944088009FFF05 /* ViewController.swift */,
 				F6F94F7124944088009FFF05 /* Main.storyboard */,
 				F6F94F742494408D009FFF05 /* Assets.xcassets */,
 				F6F94F762494408D009FFF05 /* LaunchScreen.storyboard */,
 				F6F94F792494408D009FFF05 /* Info.plist */,
+				F6F94F7F249446AD009FFF05 /* CatsCollectionViewController.swift */,
+				F6F94F8224945CB0009FFF05 /* CatImageCollectionViewCell.swift */,
 			);
 			path = "devventure-challenge";
+			sourceTree = "<group>";
+		};
+		F6F94F812494475E009FFF05 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F6F94F8A24946E74009FFF05 /* Extensions */,
+				F6F94F8424946147009FFF05 /* Model */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F6F94F8424946147009FFF05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6F94F8624946165009FFF05 /* ImgurAPI.swift */,
+				F6F94F8824946176009FFF05 /* ImgurData.swift */,
+				F6F94F8D24946FDD009FFF05 /* Images.swift */,
+				F6670BC6249AF09100FEE28E /* ImageLink.swift */,
+				F6670BC8249C2C3800FEE28E /* Links.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6F94F8A24946E74009FFF05 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F6F94F8B24946EB3009FFF05 /* UIImage+DownloadImage.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +180,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6F94F7024944088009FFF05 /* ViewController.swift in Sources */,
+				F6F94F8E24946FDD009FFF05 /* Images.swift in Sources */,
+				F6F94F8324945CB0009FFF05 /* CatImageCollectionViewCell.swift in Sources */,
+				F6F94F8924946176009FFF05 /* ImgurData.swift in Sources */,
+				F6670BC7249AF09100FEE28E /* ImageLink.swift in Sources */,
+				F6670BC9249C2C3800FEE28E /* Links.swift in Sources */,
 				F6F94F6C24944088009FFF05 /* AppDelegate.swift in Sources */,
-				F6F94F6E24944088009FFF05 /* SceneDelegate.swift in Sources */,
+				F6F94F80249446AD009FFF05 /* CatsCollectionViewController.swift in Sources */,
+				F6F94F8724946165009FFF05 /* ImgurAPI.swift in Sources */,
+				F6F94F8C24946EB3009FFF05 /* UIImage+DownloadImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
